@@ -1,0 +1,59 @@
+component "Backpack Get Current User" {
+    inputs ()
+    outputs ("xml":text, 
+            "status":text, 
+            "account-id":text, 
+            "admin":bool, 
+            "created-at":text, 
+            "id":text, 
+            "identity-url":text, 
+            "mobile-phone-host":text, 
+            "mobile-phone-number":text, 
+            "remind-via-email":bool, 
+            "remind-via-mobile":bool, 
+            "reminder-address":text, 
+            "start-page-id":text, 
+            "time-zone":text, 
+            "updated-at":text, 
+            "use-24h0-clock":text, 
+            "name":text, 
+            "email-address":text)
+    {
+        /* Step 1 */
+        {
+            /* Call a Web Service */
+            http get "[[User.SiteProtocol]]://[[User.SiteUrl]].backpackit.com/[[User.SiteApiKey]]/me.xml" with {
+                    "Authentication": "Basic",
+                    "Sample Response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<user>\n  <account-id type=\"integer\">123<\/account-id>\n  <admin type=\"boolean\">true<\/admin>\n  <created-at type=\"datetime\">2010-04-19T19:21:43Z<\/created-at>\n  <id type=\"integer\">123<\/id>\n  <identity-url nil=\"true\"><\/identity-url>\n  <mobile-phone-host nil=\"true\"><\/mobile-phone-host>\n  <mobile-phone-number nil=\"true\"><\/mobile-phone-number>\n  <remind-via-email type=\"boolean\">true<\/remind-via-email>\n  <remind-via-mobile type=\"boolean\">false<\/remind-via-mobile>\n  <reminder-address>smendoza@itrios.com<\/reminder-address>\n  <start-page-id type=\"integer\">123<\/start-page-id>\n  <time-zone-id>Eastern Time (US &amp; Canada)<\/time-zone-id>\n  <updated-at type=\"datetime\">2010-04-19T19:21:43Z<\/updated-at>\n  <use-24h-clock type=\"boolean\">false<\/use-24h-clock>\n  <name>Steve Mendoza<\/name>\n  <email-address>smendoza@itrios.com<\/email-address>\n<\/user>"
+                };
+            set $(backpackit.com:http-status) into $(status);
+            set $(backpackit.com:http-response) into $(xml);
+        }
+
+        /* Step 2 */
+        if ($(backpackit.com:http-status) NE "200") {
+            exit;
+        }
+
+        /* Step 3 */
+        {
+            set ${xml:user.account-id} into $(account-id);
+            set ${xml:user.admin} into $(admin);
+            set ${xml:user.created-at} into $(created-at);
+            set ${xml:user.id} into $(id);
+            set ${xml:user.identity-url} into $(identity-url);
+            set ${xml:user.mobile-phone-host} into $(mobile-phone-host);
+            set ${xml:user.mobile-phone-number} into $(mobile-phone-number);
+            set ${xml:user.remind-via-email} into $(remind-via-email);
+            set ${xml:user.remind-via-mobile} into $(remind-via-mobile);
+            set ${xml:user.reminder-address} into $(reminder-address);
+            set ${xml:user.start-page-id} into $(start-page-id);
+            set ${xml:user.time-zone-id} into $(time-zone);
+            set ${xml:user.updated-at} into $(updated-at);
+            set ${xml:user.use-24h-clock} into $(use-24h0-clock);
+            set ${xml:user.name} into $(name);
+            set ${xml:user.email-address} into $(email-address);
+        }
+
+    }
+}
