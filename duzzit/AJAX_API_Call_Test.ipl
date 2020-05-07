@@ -1,0 +1,15 @@
+component "AJAX API Call Test" {
+    inputs ()
+    outputs ("success":text, 
+            "error":text, 
+            "salesTaxDisabledFailure":bool, 
+            "salesTaxDisabledEmailSent":bool)
+    {
+        /* Step 1 */
+        {
+            set false into $(salesTaxDisabledFailure);
+            set true into $(salesTaxDisabledEmailSent);
+        }
+
+    }
+}
