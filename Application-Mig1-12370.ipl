@@ -6,7 +6,7 @@
   <ImportMessage></ImportMessage>
   <GlobalUniqueId></GlobalUniqueId>
   <ImportStatus></ImportStatus>
-  <ChangedDate>2020-05-07T00:51:52</ChangedDate>
+  <ChangedDate>2020-05-07T11:52:57</ChangedDate>
   <ProdAppId>b7s7zjc79t</ProdAppId>
   <isGithubEnabled>true</isGithubEnabled>
   <ImportTimestamp>2018-08-23T21:10:52</ImportTimestamp>
@@ -62,13 +62,13 @@
    <ProductRuleSet>
     <RuleSetType>DEFAULT</RuleSetType>
     <CreatedBy>837c5073-8357-43ab-861e-82fcb2775e27</CreatedBy>
-    <ChangedDate>2020-05-06T14:59:21</ChangedDate>
-    <CreatedDate>2020-05-06T14:59:21</CreatedDate>
+    <ChangedDate>2020-05-07T12:56:58</ChangedDate>
+    <CreatedDate>2020-05-07T12:56:58</CreatedDate>
     <ProductId key="true">12370</ProductId>
     <RuleSetSubType></RuleSetSubType>
     <RunWhenActivated>false</RunWhenActivated>
     <RunWhenSettingsChanged>false</RunWhenSettingsChanged>
-    <RuleSetId key="true">501457</RuleSetId>
+    <RuleSetId key="true">10711</RuleSetId>
     <ChangedBy>837c5073-8357-43ab-861e-82fcb2775e27</ChangedBy>
    </ProductRuleSet>
   </ApplicationVersion>
@@ -79,12 +79,12 @@
   <Operation></Operation>
   <RunModeSubscribedUser>false</RunModeSubscribedUser>
   <GroupSequence>0</GroupSequence>
-  <FirstPublishDate>2015-12-01T17:40:08</FirstPublishDate>
+  <FirstPublishDate>2010-04-19T23:29:43</FirstPublishDate>
   <ApiGatewayRequired>false</ApiGatewayRequired>
   <Status>ACTIVE</Status>
   <EventAction>NONE</EventAction>
-  <CreatedBy>wwang-admin</CreatedBy>
-  <RunModeWebService>true</RunModeWebService>
+  <CreatedBy>smendoza</CreatedBy>
+  <RunModeWebService>false</RunModeWebService>
   <CopiedFromRsId></CopiedFromRsId>
   <EntityType></EntityType>
   <RunModeEmail>false</RunModeEmail>
@@ -92,13 +92,13 @@
   <OutputContentType></OutputContentType>
   <InputSourceEntityId></InputSourceEntityId>
   <CreateUser>false</CreateUser>
-  <Description></Description>
-  <RuleSetCategoryId>100024</RuleSetCategoryId>
+  <Description>Gets your current user information from Backpack (37signals).</Description>
+  <RuleSetCategoryId>83</RuleSetCategoryId>
   <RunModeSchedule>false</RunModeSchedule>
   <ModifiedBy></ModifiedBy>
   <GroupName></GroupName>
   <OutputTemplate></OutputTemplate>
-  <CreatedDate>2015-12-01T17:39:14</CreatedDate>
+  <CreatedDate>2010-04-19T23:27:18</CreatedDate>
   <WhoCanEdit></WhoCanEdit>
   <RuleLogging>0</RuleLogging>
   <EntityDescriptionField></EntityDescriptionField>
@@ -106,262 +106,1571 @@
   <OutputSourceEntityId></OutputSourceEntityId>
   <RunModeFile>false</RunModeFile>
   <PrimaryAd></PrimaryAd>
-  <RunModeDatasource>false</RunModeDatasource>
-  <ButtonText></ButtonText>
+  <RunModeDatasource>true</RunModeDatasource>
+  <ButtonText>Get My Backpack User Information</ButtonText>
   <RuleActionCategoryIdFrom></RuleActionCategoryIdFrom>
-  <Classification>NONE</Classification>
+  <Classification>BOTH</Classification>
   <CacheResults>false</CacheResults>
   <ProductionCopy>false</ProductionCopy>
-  <UrlContext></UrlContext>
+  <UrlContext>backpack-current-user</UrlContext>
   <ChangedBy>system</ChangedBy>
-  <ChangedDate>2020-05-06T14:59:21</ChangedDate>
+  <ChangedDate>2020-05-07T12:56:58</ChangedDate>
   <HttpStatusCodeOnError></HttpStatusCodeOnError>
   <Header></Header>
   <ImportedFrom></ImportedFrom>
   <CacheTTL>60</CacheTTL>
-  <RuleActionCategoryId>5021</RuleActionCategoryId>
-  <DoNotList>true</DoNotList>
+  <RuleActionCategoryId>52</RuleActionCategoryId>
+  <DoNotList>false</DoNotList>
   <RunModeScheduleForce>false</RunModeScheduleForce>
-  <DatasourceName></DatasourceName>
-  <RunModeEmbeddedRule>false</RunModeEmbeddedRule>
+  <DatasourceName>BackpackCurrentUser</DatasourceName>
+  <RunModeEmbeddedRule>true</RunModeEmbeddedRule>
   <Footer></Footer>
-  <LastPublishDate>2015-12-01T17:45:47</LastPublishDate>
+  <LastPublishDate>2010-06-23T17:08:45</LastPublishDate>
   <concurrentExecutionMax></concurrentExecutionMax>
   <ClassificationConnector>NONE</ClassificationConnector>
   <SaveStrategy></SaveStrategy>
   <RunModeWebPage>true</RunModeWebPage>
   <EntityIdField></EntityIdField>
   <CachePerUser>false</CachePerUser>
-  <RuleSetName>AJAX API Call Test</RuleSetName>
-  <SuppressAds>false</SuppressAds>
-  <PublishBy>wwang-admin</PublishBy>
+  <RuleSetName>Backpack Get Current User</RuleSetName>
+  <SuppressAds>true</SuppressAds>
+  <PublishBy>smendoza</PublishBy>
   <RunModeRequiresAuth>true</RunModeRequiresAuth>
   <RunModeJava>true</RunModeJava>
   <ReservedUse>true</ReservedUse>
-  <GlobalUniqueId>ip-10-82-45-5.localdomain-1448991552190-1001-1000002</GlobalUniqueId>
-  <RuleSetId key="true">501457</RuleSetId>
+  <GlobalUniqueId>AWSAPP01-1271734038124</GlobalUniqueId>
+  <RuleSetId key="true">10711</RuleSetId>
   <Privacy>1</Privacy>
   <EnvironmentId>1001</EnvironmentId>
   <AllowCopy>0</AllowCopy>
   <DoNotLog>false</DoNotLog>
   <RuleLine>
    <ActionMode>0</ActionMode>
-   <RuleLineId key="true">500005312</RuleLineId>
+   <RuleLineId key="true">13074</RuleLineId>
    <NextStepIfTrue>0</NextStepIfTrue>
    <Disabled>false</Disabled>
-   <ChangedDate>2015-12-01T17:39:14</ChangedDate>
+   <ChangedDate>2010-04-19T23:42:45</ChangedDate>
    <ValueOperand></ValueOperand>
    <RuleConditionId></RuleConditionId>
    <Sequence>1</Sequence>
    <ExecutionMode>0</ExecutionMode>
    <RuleLineName>Step 1</RuleLineName>
    <LoopItem></LoopItem>
-   <CreatedDate>2015-12-01T17:39:14</CreatedDate>
-   <ChangedBy>wwang-admin</ChangedBy>
+   <CreatedDate>2010-04-19T23:27:18</CreatedDate>
+   <ChangedBy>system</ChangedBy>
    <NextStepIfFalse>0</NextStepIfFalse>
    <RuleLineType></RuleLineType>
    <EnvironmentId>1001</EnvironmentId>
-   <CreatedBy>wwang-admin</CreatedBy>
+   <CreatedBy>smendoza</CreatedBy>
    <ParentRuleLineId></ParentRuleLineId>
-   <RuleSetId>501457</RuleSetId>
+   <RuleSetId>10711</RuleSetId>
    <RuleLineAction>
     <ExecutionMode>0</ExecutionMode>
-    <CreatedBy>wwang-admin</CreatedBy>
+    <CreatedBy>system</CreatedBy>
     <ActionSequence>1</ActionSequence>
-    <ChangedDate>2015-12-02T18:16:26</ChangedDate>
-    <RuleLineId>500005312</RuleLineId>
-    <CreatedDate>2015-12-02T18:16:26</CreatedDate>
-    <RuleLineActionId key="true">500041333</RuleLineActionId>
+    <ChangedDate>2010-04-23T10:17:25</ChangedDate>
+    <RuleLineId>13074</RuleLineId>
+    <CreatedDate>2010-04-19T23:27:25</CreatedDate>
+    <RuleLineActionId key="true">16703</RuleLineActionId>
     <IgnoreCache>false</IgnoreCache>
     <DatasourceName></DatasourceName>
-    <ActionName>Set a Value</ActionName>
+    <ActionName>Call a Web Service</ActionName>
     <EnvironmentId>1001</EnvironmentId>
-    <RuleActionId>10</RuleActionId>
+    <RuleActionId>18</RuleActionId>
     <RunType>2</RunType>
-    <ChangedBy>wwang-admin</ChangedBy>
+    <ChangedBy>system</ChangedBy>
     <DynamicFields></DynamicFields>
     <ActionMode>0</ActionMode>
     <RuleLineActionParameter>
-     <ActionParameterName>Target</ActionParameterName>
-     <RuleLineActionParameterId key="true">500300175</RuleLineActionParameterId>
-     <CreatedBy>wwang-admin</CreatedBy>
-     <ChangedDate>2015-12-02T18:16:26</ChangedDate>
+     <ActionParameterName>URL</ActionParameterName>
+     <RuleLineActionParameterId key="true">29872</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-23T10:17:25</ChangedDate>
      <ValidValues></ValidValues>
      <ListIndex></ListIndex>
-     <CreatedDate>2015-12-02T18:16:26</CreatedDate>
-     <RuleLineActionId>500041333</RuleLineActionId>
+     <CreatedDate>2010-04-19T23:27:54</CreatedDate>
+     <RuleLineActionId>16703</RuleLineActionId>
      <EnvironmentId>1001</EnvironmentId>
-     <ChangedBy>wwang-admin</ChangedBy>
-     <ActionParameterValue>$(salesTaxDisabledFailure)</ActionParameterValue>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>[[User.SiteProtocol]]://[[User.SiteUrl]].backpackit.com/[[User.SiteApiKey]]/me.xml</ActionParameterValue>
     </RuleLineActionParameter>
     <RuleLineActionParameter>
-     <ActionParameterName>Value</ActionParameterName>
-     <RuleLineActionParameterId key="true">500300177</RuleLineActionParameterId>
-     <CreatedBy>wwang-admin</CreatedBy>
-     <ChangedDate>2015-12-02T18:23:21</ChangedDate>
+     <ActionParameterName>Method</ActionParameterName>
+     <RuleLineActionParameterId key="true">29873</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-23T10:17:25</ChangedDate>
      <ValidValues></ValidValues>
      <ListIndex></ListIndex>
-     <CreatedDate>2015-12-02T18:16:30</CreatedDate>
-     <RuleLineActionId>500041333</RuleLineActionId>
+     <CreatedDate>2010-04-19T23:27:54</CreatedDate>
+     <RuleLineActionId>16703</RuleLineActionId>
      <EnvironmentId>1001</EnvironmentId>
-     <ChangedBy>wwang-admin</ChangedBy>
-     <ActionParameterValue>false</ActionParameterValue>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>GET</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Headers</ActionParameterName>
+     <RuleLineActionParameterId key="true">29874</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-23T10:17:25</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:27:54</CreatedDate>
+     <RuleLineActionId>16703</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue></ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Message Body</ActionParameterName>
+     <RuleLineActionParameterId key="true">29875</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-23T10:17:25</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:27:54</CreatedDate>
+     <RuleLineActionId>16703</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue></ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Authentication</ActionParameterName>
+     <RuleLineActionParameterId key="true">29876</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-23T10:17:25</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:27:54</CreatedDate>
+     <RuleLineActionId>16703</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>Basic</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Username</ActionParameterName>
+     <RuleLineActionParameterId key="true">29877</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-23T10:17:25</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:27:54</CreatedDate>
+     <RuleLineActionId>16703</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue></ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Password</ActionParameterName>
+     <RuleLineActionParameterId key="true">29878</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-23T10:17:25</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:27:54</CreatedDate>
+     <RuleLineActionId>16703</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue></ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Sample Response</ActionParameterName>
+     <RuleLineActionParameterId key="true">29879</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-23T10:17:25</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:27:54</CreatedDate>
+     <RuleLineActionId>16703</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<user>
+  <account-id type="integer">123</account-id>
+  <admin type="boolean">true</admin>
+  <created-at type="datetime">2010-04-19T19:21:43Z</created-at>
+  <id type="integer">123</id>
+  <identity-url nil="true"></identity-url>
+  <mobile-phone-host nil="true"></mobile-phone-host>
+  <mobile-phone-number nil="true"></mobile-phone-number>
+  <remind-via-email type="boolean">true</remind-via-email>
+  <remind-via-mobile type="boolean">false</remind-via-mobile>
+  <reminder-address>smendoza@itrios.com</reminder-address>
+  <start-page-id type="integer">123</start-page-id>
+  <time-zone-id>Eastern Time (US &amp; Canada)</time-zone-id>
+  <updated-at type="datetime">2010-04-19T19:21:43Z</updated-at>
+  <use-24h-clock type="boolean">false</use-24h-clock>
+  <name>Steve Mendoza</name>
+  <email-address>smendoza@itrios.com</email-address>
+</user>]]></ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Response Status</ActionParameterName>
+     <RuleLineActionParameterId key="true">29880</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-23T10:17:25</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:27:54</CreatedDate>
+     <RuleLineActionId>16703</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue></ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Response Body</ActionParameterName>
+     <RuleLineActionParameterId key="true">29881</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-23T10:17:25</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:27:54</CreatedDate>
+     <RuleLineActionId>16703</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue></ActionParameterValue>
     </RuleLineActionParameter>
    </RuleLineAction>
    <RuleLineAction>
     <ExecutionMode>0</ExecutionMode>
-    <CreatedBy>wwang-admin</CreatedBy>
-    <ActionSequence>2</ActionSequence>
-    <ChangedDate>2015-12-02T18:16:28</ChangedDate>
-    <RuleLineId>500005312</RuleLineId>
-    <CreatedDate>2015-12-02T18:16:28</CreatedDate>
-    <RuleLineActionId key="true">500041334</RuleLineActionId>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>3</ActionSequence>
+    <ChangedDate>2010-04-19T23:34:31</ChangedDate>
+    <RuleLineId>13074</RuleLineId>
+    <CreatedDate>2010-04-19T23:29:35</CreatedDate>
+    <RuleLineActionId key="true">16704</RuleLineActionId>
     <IgnoreCache>false</IgnoreCache>
     <DatasourceName></DatasourceName>
     <ActionName>Set a Value</ActionName>
     <EnvironmentId>1001</EnvironmentId>
     <RuleActionId>10</RuleActionId>
     <RunType>2</RunType>
-    <ChangedBy>wwang-admin</ChangedBy>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29882</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:38:46</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:29:35</CreatedDate>
+     <RuleLineActionId>16704</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(backpackit.com:http-response)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29883</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:29:37</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:29:37</CreatedDate>
+     <RuleLineActionId>16704</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(xml)</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>2</ActionSequence>
+    <ChangedDate>2010-04-19T23:34:31</ChangedDate>
+    <RuleLineId>13074</RuleLineId>
+    <CreatedDate>2010-04-19T23:34:31</CreatedDate>
+    <RuleLineActionId key="true">16705</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
     <DynamicFields></DynamicFields>
     <ActionMode>0</ActionMode>
     <RuleLineActionParameter>
      <ActionParameterName>Target</ActionParameterName>
-     <RuleLineActionParameterId key="true">500300176</RuleLineActionParameterId>
-     <CreatedBy>wwang-admin</CreatedBy>
-     <ChangedDate>2015-12-02T18:16:28</ChangedDate>
+     <RuleLineActionParameterId key="true">29884</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:34:31</ChangedDate>
      <ValidValues></ValidValues>
      <ListIndex></ListIndex>
-     <CreatedDate>2015-12-02T18:16:28</CreatedDate>
-     <RuleLineActionId>500041334</RuleLineActionId>
+     <CreatedDate>2010-04-19T23:34:31</CreatedDate>
+     <RuleLineActionId>16705</RuleLineActionId>
      <EnvironmentId>1001</EnvironmentId>
-     <ChangedBy>wwang-admin</ChangedBy>
-     <ActionParameterValue>$(salesTaxDisabledEmailSent)</ActionParameterValue>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(status)</ActionParameterValue>
     </RuleLineActionParameter>
     <RuleLineActionParameter>
      <ActionParameterName>Value</ActionParameterName>
-     <RuleLineActionParameterId key="true">500300178</RuleLineActionParameterId>
-     <CreatedBy>wwang-admin</CreatedBy>
-     <ChangedDate>2015-12-02T18:24:05</ChangedDate>
+     <RuleLineActionParameterId key="true">29885</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:38:43</ChangedDate>
      <ValidValues></ValidValues>
      <ListIndex></ListIndex>
-     <CreatedDate>2015-12-02T18:16:35</CreatedDate>
-     <RuleLineActionId>500041334</RuleLineActionId>
+     <CreatedDate>2010-04-19T23:34:34</CreatedDate>
+     <RuleLineActionId>16705</RuleLineActionId>
      <EnvironmentId>1001</EnvironmentId>
-     <ChangedBy>wwang-admin</ChangedBy>
-     <ActionParameterValue>true</ActionParameterValue>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(backpackit.com:http-status)</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+  </RuleLine>
+  <RuleLine>
+   <ActionMode>0</ActionMode>
+   <RuleLineId key="true">13075</RuleLineId>
+   <NextStepIfTrue>-1</NextStepIfTrue>
+   <Disabled>false</Disabled>
+   <ChangedDate>2010-04-19T23:42:45</ChangedDate>
+   <ValueOperand></ValueOperand>
+   <RuleConditionId>1442</RuleConditionId>
+   <Sequence>2</Sequence>
+   <ExecutionMode>0</ExecutionMode>
+   <RuleLineName>Step 2</RuleLineName>
+   <LoopItem></LoopItem>
+   <CreatedDate>2010-04-19T23:42:20</CreatedDate>
+   <ChangedBy>system</ChangedBy>
+   <NextStepIfFalse>0</NextStepIfFalse>
+   <RuleLineType></RuleLineType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <ParentRuleLineId></ParentRuleLineId>
+   <RuleSetId>10711</RuleSetId>
+   <RuleCondition>
+    <Description>Backpack Get Current User-Line2</Description>
+    <RuleConditionCategoryId></RuleConditionCategoryId>
+    <InLibrary>false</InLibrary>
+    <RuleConditionId key="true">1442</RuleConditionId>
+    <CreatedBy>system</CreatedBy>
+    <ChangedDate>2010-04-19T23:42:41</ChangedDate>
+    <CreatedDate>2010-04-19T23:42:20</CreatedDate>
+    <Expression><![CDATA[$(backpackit.com:http-status) NE "200"]]></Expression>
+    <EnvironmentId>1001</EnvironmentId>
+    <LibraryName></LibraryName>
+    <RuleLogging>1</RuleLogging>
+    <ConditionName>Backpack Get Current User-Line2</ConditionName>
+    <ChangedBy>system</ChangedBy>
+   </RuleCondition>
+  </RuleLine>
+  <RuleLine>
+   <ActionMode>0</ActionMode>
+   <RuleLineId key="true">13076</RuleLineId>
+   <NextStepIfTrue>0</NextStepIfTrue>
+   <Disabled>false</Disabled>
+   <ChangedDate>2010-04-19T23:42:45</ChangedDate>
+   <ValueOperand></ValueOperand>
+   <RuleConditionId></RuleConditionId>
+   <Sequence>3</Sequence>
+   <ExecutionMode>0</ExecutionMode>
+   <RuleLineName>Step 3</RuleLineName>
+   <LoopItem></LoopItem>
+   <CreatedDate>2010-04-19T23:42:45</CreatedDate>
+   <ChangedBy>system</ChangedBy>
+   <NextStepIfFalse>0</NextStepIfFalse>
+   <RuleLineType></RuleLineType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <ParentRuleLineId></ParentRuleLineId>
+   <RuleSetId>10711</RuleSetId>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>1</ActionSequence>
+    <ChangedDate>2010-04-19T23:42:48</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:42:48</CreatedDate>
+    <RuleLineActionId key="true">16707</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29887</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:42:48</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:42:48</CreatedDate>
+     <RuleLineActionId>16707</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(account-id)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29902</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:35</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:35</CreatedDate>
+     <RuleLineActionId>16707</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.account-id}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>3</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:42:51</CreatedDate>
+    <RuleLineActionId key="true">16708</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29888</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:42:53</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:42:51</CreatedDate>
+     <RuleLineActionId>16708</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(created-at)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29903</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:41</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:37</CreatedDate>
+     <RuleLineActionId>16708</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.created-at}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>4</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:42:55</CreatedDate>
+    <RuleLineActionId key="true">16709</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29889</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:42:55</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:42:55</CreatedDate>
+     <RuleLineActionId>16709</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(id)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29906</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:54</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:54</CreatedDate>
+     <RuleLineActionId>16709</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.id}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>5</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:42:57</CreatedDate>
+    <RuleLineActionId key="true">16710</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29890</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:42:57</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:42:57</CreatedDate>
+     <RuleLineActionId>16710</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(identity-url)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29907</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:56</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:56</CreatedDate>
+     <RuleLineActionId>16710</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.identity-url}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>6</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:42:59</CreatedDate>
+    <RuleLineActionId key="true">16711</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29891</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:42:59</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:42:59</CreatedDate>
+     <RuleLineActionId>16711</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(mobile-phone-host)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29908</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:59</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:59</CreatedDate>
+     <RuleLineActionId>16711</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.mobile-phone-host}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>7</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:43:02</CreatedDate>
+    <RuleLineActionId key="true">16712</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29892</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:02</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:02</CreatedDate>
+     <RuleLineActionId>16712</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(mobile-phone-number)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29909</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:44:02</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:44:02</CreatedDate>
+     <RuleLineActionId>16712</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.mobile-phone-number}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>8</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:43:04</CreatedDate>
+    <RuleLineActionId key="true">16713</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29893</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:04</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:04</CreatedDate>
+     <RuleLineActionId>16713</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(remind-via-email)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29910</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:44:04</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:44:04</CreatedDate>
+     <RuleLineActionId>16713</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.remind-via-email}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>9</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:43:06</CreatedDate>
+    <RuleLineActionId key="true">16714</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29894</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:06</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:06</CreatedDate>
+     <RuleLineActionId>16714</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(remind-via-mobile)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29911</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:44:12</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:44:12</CreatedDate>
+     <RuleLineActionId>16714</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.remind-via-mobile}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>10</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:43:09</CreatedDate>
+    <RuleLineActionId key="true">16715</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29895</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:09</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:09</CreatedDate>
+     <RuleLineActionId>16715</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(reminder-address)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29912</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:44:15</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:44:15</CreatedDate>
+     <RuleLineActionId>16715</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.reminder-address}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>11</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:43:11</CreatedDate>
+    <RuleLineActionId key="true">16716</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29896</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:11</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:11</CreatedDate>
+     <RuleLineActionId>16716</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(start-page-id)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29913</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:44:18</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:44:18</CreatedDate>
+     <RuleLineActionId>16716</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.start-page-id}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>12</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:43:13</CreatedDate>
+    <RuleLineActionId key="true">16717</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29897</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:13</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:13</CreatedDate>
+     <RuleLineActionId>16717</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(time-zone)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29914</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:44:21</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:44:21</CreatedDate>
+     <RuleLineActionId>16717</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.time-zone-id}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>13</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:43:15</CreatedDate>
+    <RuleLineActionId key="true">16718</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29898</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:15</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:15</CreatedDate>
+     <RuleLineActionId>16718</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(updated-at)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29915</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:44:25</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:44:25</CreatedDate>
+     <RuleLineActionId>16718</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.updated-at}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>15</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:43:21</CreatedDate>
+    <RuleLineActionId key="true">16719</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29899</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:21</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:21</CreatedDate>
+     <RuleLineActionId>16719</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(name)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29917</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:44:29</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:44:29</CreatedDate>
+     <RuleLineActionId>16719</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.name}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>14</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:43:25</CreatedDate>
+    <RuleLineActionId key="true">16720</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29900</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:25</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:25</CreatedDate>
+     <RuleLineActionId>16720</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(use-24h0-clock)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29916</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:44:27</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:44:27</CreatedDate>
+     <RuleLineActionId>16720</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.use-24h-clock}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>16</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:43:30</CreatedDate>
+    <RuleLineActionId key="true">16721</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29901</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:30</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:30</CreatedDate>
+     <RuleLineActionId>16721</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(email-address)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29918</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:44:34</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:44:34</CreatedDate>
+     <RuleLineActionId>16721</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.email-address}</ActionParameterValue>
+    </RuleLineActionParameter>
+   </RuleLineAction>
+   <RuleLineAction>
+    <ExecutionMode>0</ExecutionMode>
+    <CreatedBy>system</CreatedBy>
+    <ActionSequence>2</ActionSequence>
+    <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+    <RuleLineId>13076</RuleLineId>
+    <CreatedDate>2010-04-19T23:43:47</CreatedDate>
+    <RuleLineActionId key="true">16722</RuleLineActionId>
+    <IgnoreCache>false</IgnoreCache>
+    <DatasourceName></DatasourceName>
+    <ActionName>Set a Value</ActionName>
+    <EnvironmentId>1001</EnvironmentId>
+    <RuleActionId>10</RuleActionId>
+    <RunType>2</RunType>
+    <ChangedBy>system</ChangedBy>
+    <DynamicFields></DynamicFields>
+    <ActionMode>0</ActionMode>
+    <RuleLineActionParameter>
+     <ActionParameterName>Target</ActionParameterName>
+     <RuleLineActionParameterId key="true">29904</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:47</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:47</CreatedDate>
+     <RuleLineActionId>16722</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>$(admin)</ActionParameterValue>
+    </RuleLineActionParameter>
+    <RuleLineActionParameter>
+     <ActionParameterName>Value</ActionParameterName>
+     <RuleLineActionParameterId key="true">29905</RuleLineActionParameterId>
+     <CreatedBy>system</CreatedBy>
+     <ChangedDate>2010-04-19T23:43:50</ChangedDate>
+     <ValidValues></ValidValues>
+     <ListIndex></ListIndex>
+     <CreatedDate>2010-04-19T23:43:50</CreatedDate>
+     <RuleLineActionId>16722</RuleLineActionId>
+     <EnvironmentId>1001</EnvironmentId>
+     <ChangedBy>system</ChangedBy>
+     <ActionParameterValue>${xml:user.admin}</ActionParameterValue>
     </RuleLineActionParameter>
    </RuleLineAction>
   </RuleLine>
   <RulesetActionCategory>
-   <RuleSetId key="true">501457</RuleSetId>
-   <ChangedDate>2015-12-01T17:45:49</ChangedDate>
+   <RuleSetId key="true">10711</RuleSetId>
+   <ChangedDate>2010-04-19T23:46:58</ChangedDate>
    <Priority>0</Priority>
-   <RuleActionCategoryId key="true">5021</RuleActionCategoryId>
-   <CreatedDate>2015-12-01T17:45:49</CreatedDate>
+   <RuleActionCategoryId key="true">24</RuleActionCategoryId>
+   <CreatedDate>2010-04-19T23:46:58</CreatedDate>
+   <ChangedBy>system</ChangedBy>
+   <CreatedBy>system</CreatedBy>
+  </RulesetActionCategory>
+  <RulesetActionCategory>
+   <RuleSetId key="true">10711</RuleSetId>
+   <ChangedDate>2010-05-04T02:53:46</ChangedDate>
+   <Priority>0</Priority>
+   <RuleActionCategoryId key="true">27</RuleActionCategoryId>
+   <CreatedDate>2010-05-04T02:53:46</CreatedDate>
+   <ChangedBy>system</ChangedBy>
+   <CreatedBy>system</CreatedBy>
+  </RulesetActionCategory>
+  <RulesetActionCategory>
+   <RuleSetId key="true">10711</RuleSetId>
+   <ChangedDate>2010-06-23T17:08:45</ChangedDate>
+   <Priority>0</Priority>
+   <RuleActionCategoryId key="true">52</RuleActionCategoryId>
+   <CreatedDate>2010-06-23T17:08:45</CreatedDate>
    <ChangedBy>system</ChangedBy>
    <CreatedBy>system</CreatedBy>
   </RulesetActionCategory>
   <RuleOutputVariable>
    <sampleData></sampleData>
-   <RuleOutputVariableId key="true">500004435</RuleOutputVariableId>
-   <Name>success</Name>
-   <PositionFill>0</PositionFill>
+   <RuleOutputVariableId key="true">3629</RuleOutputVariableId>
+   <Name>xml</Name>
+   <PositionFill></PositionFill>
    <GlobalScope>false</GlobalScope>
    <FromPosition></FromPosition>
-   <DefaultValue>true</DefaultValue>
+   <DefaultValue></DefaultValue>
    <SubDataType></SubDataType>
-   <ChangedDate>2015-12-01T17:39:27</ChangedDate>
+   <ChangedDate>2010-04-19T23:39:49</ChangedDate>
    <Sequence>0</Sequence>
-   <Internal>false</Internal>
-   <CreatedDate>2015-12-01T17:39:27</CreatedDate>
+   <Internal>true</Internal>
+   <CreatedDate>2010-04-19T23:29:29</CreatedDate>
    <Label></Label>
    <ListVariableId></ListVariableId>
-   <ChangedBy>wwang-admin</ChangedBy>
+   <ChangedBy>system</ChangedBy>
    <ToPosition></ToPosition>
    <DataType>String</DataType>
    <EnvironmentId>1001</EnvironmentId>
-   <CreatedBy>wwang-admin</CreatedBy>
+   <CreatedBy>system</CreatedBy>
    <SaveToDatabase>false</SaveToDatabase>
-   <RuleSetId>501457</RuleSetId>
+   <RuleSetId>10711</RuleSetId>
    <FormType></FormType>
    <ValidValueType></ValidValueType>
    <HideFromUserLogs>false</HideFromUserLogs>
   </RuleOutputVariable>
   <RuleOutputVariable>
    <sampleData></sampleData>
-   <RuleOutputVariableId key="true">500004436</RuleOutputVariableId>
-   <Name>error</Name>
-   <PositionFill>0</PositionFill>
+   <RuleOutputVariableId key="true">3630</RuleOutputVariableId>
+   <Name>status</Name>
+   <PositionFill></PositionFill>
    <GlobalScope>false</GlobalScope>
    <FromPosition></FromPosition>
    <DefaultValue></DefaultValue>
    <SubDataType></SubDataType>
-   <ChangedDate>2015-12-01T17:39:35</ChangedDate>
+   <ChangedDate>2010-04-19T23:38:24</ChangedDate>
    <Sequence>0</Sequence>
-   <Internal>false</Internal>
-   <CreatedDate>2015-12-01T17:39:35</CreatedDate>
+   <Internal>true</Internal>
+   <CreatedDate>2010-04-19T23:34:29</CreatedDate>
    <Label></Label>
    <ListVariableId></ListVariableId>
-   <ChangedBy>wwang-admin</ChangedBy>
+   <ChangedBy>system</ChangedBy>
    <ToPosition></ToPosition>
    <DataType>String</DataType>
    <EnvironmentId>1001</EnvironmentId>
-   <CreatedBy>wwang-admin</CreatedBy>
+   <CreatedBy>system</CreatedBy>
    <SaveToDatabase>false</SaveToDatabase>
-   <RuleSetId>501457</RuleSetId>
+   <RuleSetId>10711</RuleSetId>
    <FormType></FormType>
    <ValidValueType></ValidValueType>
    <HideFromUserLogs>false</HideFromUserLogs>
   </RuleOutputVariable>
   <RuleOutputVariable>
    <sampleData></sampleData>
-   <RuleOutputVariableId key="true">500004449</RuleOutputVariableId>
-   <Name>salesTaxDisabledFailure</Name>
-   <PositionFill>0</PositionFill>
+   <RuleOutputVariableId key="true">3631</RuleOutputVariableId>
+   <Name>account-id</Name>
+   <PositionFill></PositionFill>
    <GlobalScope>false</GlobalScope>
    <FromPosition></FromPosition>
    <DefaultValue></DefaultValue>
    <SubDataType></SubDataType>
-   <ChangedDate>2015-12-02T18:16:09</ChangedDate>
+   <ChangedDate>2010-04-19T23:39:56</ChangedDate>
    <Sequence>0</Sequence>
    <Internal>false</Internal>
-   <CreatedDate>2015-12-02T18:16:09</CreatedDate>
+   <CreatedDate>2010-04-19T23:39:56</CreatedDate>
    <Label></Label>
    <ListVariableId></ListVariableId>
-   <ChangedBy>wwang-admin</ChangedBy>
+   <ChangedBy>system</ChangedBy>
    <ToPosition></ToPosition>
-   <DataType>Boolean</DataType>
+   <DataType>String</DataType>
    <EnvironmentId>1001</EnvironmentId>
-   <CreatedBy>wwang-admin</CreatedBy>
+   <CreatedBy>system</CreatedBy>
    <SaveToDatabase>false</SaveToDatabase>
-   <RuleSetId>501457</RuleSetId>
+   <RuleSetId>10711</RuleSetId>
    <FormType></FormType>
    <ValidValueType></ValidValueType>
    <HideFromUserLogs>false</HideFromUserLogs>
   </RuleOutputVariable>
   <RuleOutputVariable>
    <sampleData></sampleData>
-   <RuleOutputVariableId key="true">500004450</RuleOutputVariableId>
-   <Name>salesTaxDisabledEmailSent</Name>
-   <PositionFill>0</PositionFill>
+   <RuleOutputVariableId key="true">3632</RuleOutputVariableId>
+   <Name>admin</Name>
+   <PositionFill></PositionFill>
    <GlobalScope>false</GlobalScope>
    <FromPosition></FromPosition>
    <DefaultValue></DefaultValue>
    <SubDataType></SubDataType>
-   <ChangedDate>2015-12-02T18:16:22</ChangedDate>
+   <ChangedDate>2010-04-19T23:40:05</ChangedDate>
    <Sequence>0</Sequence>
    <Internal>false</Internal>
-   <CreatedDate>2015-12-02T18:16:22</CreatedDate>
+   <CreatedDate>2010-04-19T23:40:05</CreatedDate>
    <Label></Label>
    <ListVariableId></ListVariableId>
-   <ChangedBy>wwang-admin</ChangedBy>
+   <ChangedBy>system</ChangedBy>
    <ToPosition></ToPosition>
    <DataType>Boolean</DataType>
    <EnvironmentId>1001</EnvironmentId>
-   <CreatedBy>wwang-admin</CreatedBy>
+   <CreatedBy>system</CreatedBy>
    <SaveToDatabase>false</SaveToDatabase>
-   <RuleSetId>501457</RuleSetId>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3633</RuleOutputVariableId>
+   <Name>created-at</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:40:10</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:40:10</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>String</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3634</RuleOutputVariableId>
+   <Name>id</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:40:17</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:40:17</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>String</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3635</RuleOutputVariableId>
+   <Name>identity-url</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:40:29</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:40:29</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>String</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3636</RuleOutputVariableId>
+   <Name>mobile-phone-host</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:40:40</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:40:40</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>String</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3637</RuleOutputVariableId>
+   <Name>mobile-phone-number</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:40:50</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:40:50</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>String</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3638</RuleOutputVariableId>
+   <Name>remind-via-email</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:41:00</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:41:00</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>Boolean</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3639</RuleOutputVariableId>
+   <Name>remind-via-mobile</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:41:17</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:41:17</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>Boolean</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3640</RuleOutputVariableId>
+   <Name>reminder-address</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:41:28</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:41:28</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>String</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3641</RuleOutputVariableId>
+   <Name>start-page-id</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:41:35</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:41:35</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>String</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3642</RuleOutputVariableId>
+   <Name>time-zone</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:41:44</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:41:44</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>String</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3643</RuleOutputVariableId>
+   <Name>updated-at</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:41:50</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:41:50</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>String</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3644</RuleOutputVariableId>
+   <Name>use-24h0-clock</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:42:00</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:42:00</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>String</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3645</RuleOutputVariableId>
+   <Name>name</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:42:05</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:42:05</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>String</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
+   <FormType></FormType>
+   <ValidValueType></ValidValueType>
+   <HideFromUserLogs>false</HideFromUserLogs>
+  </RuleOutputVariable>
+  <RuleOutputVariable>
+   <sampleData></sampleData>
+   <RuleOutputVariableId key="true">3646</RuleOutputVariableId>
+   <Name>email-address</Name>
+   <PositionFill></PositionFill>
+   <GlobalScope>false</GlobalScope>
+   <FromPosition></FromPosition>
+   <DefaultValue></DefaultValue>
+   <SubDataType></SubDataType>
+   <ChangedDate>2010-04-19T23:42:12</ChangedDate>
+   <Sequence>0</Sequence>
+   <Internal>false</Internal>
+   <CreatedDate>2010-04-19T23:42:12</CreatedDate>
+   <Label></Label>
+   <ListVariableId></ListVariableId>
+   <ChangedBy>system</ChangedBy>
+   <ToPosition></ToPosition>
+   <DataType>String</DataType>
+   <EnvironmentId>1001</EnvironmentId>
+   <CreatedBy>system</CreatedBy>
+   <SaveToDatabase>false</SaveToDatabase>
+   <RuleSetId>10711</RuleSetId>
    <FormType></FormType>
    <ValidValueType></ValidValueType>
    <HideFromUserLogs>false</HideFromUserLogs>
